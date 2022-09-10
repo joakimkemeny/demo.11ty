@@ -1,0 +1,14 @@
+{
+   "name": "@joakimkemeny/demo-11ty",
+   "version": "1.0.0",
+   "private": true,
+   "scripts": {
+      "build": "rm -fr build && eleventy --config=config/11ty.config.js",
+      "start": "eleventy --serve --port=3000 --config=config/11ty.config.js"
+   },
+   "devDependencies": {
+      "@11ty/eleventy": "1.0.2",
+      "eleventy-hast-jsx": "0.3.1",
+      "markdown-it": "13.0.1"
+   }
+}
